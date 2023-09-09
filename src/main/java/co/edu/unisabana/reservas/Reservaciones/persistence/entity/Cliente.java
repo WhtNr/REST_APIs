@@ -15,15 +15,13 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_cliente")
-    private Integer idCliente;
+    private long idCliente;
 
     private String nombre;
 
     private String apellido;
 
-    private String especialidad;
-
-    private Integer celular;
+    private long celular;
 
     private String correo;
 
