@@ -12,5 +12,4 @@ public class ReprogramacionCitaRequest {
     private LocalTime nuevaHoraInicio;
     private LocalTime nuevaHoraFin;
 
-    // Getters y setters
 }

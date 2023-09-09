@@ -3,6 +3,7 @@ package co.edu.unisabana.reservas.Reservaciones.Controladores;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.Reservaciones.persistence.logica.CitaService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.logica.ReprogramacionCitaRequest;
+import co.edu.unisabana.reservas.Reservaciones.Repositorios.CitaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/citas")
@@ -19,13 +21,16 @@ public class CitaController {
     @Autowired
     private CitaService citaService;
 
+    @Autowired
+    private CitaRepository citaRepository;
+
     @PostMapping("/programar")
     public ResponseEntity<String> programarCita(@RequestBody Cita cita) {
         LocalDate fecha = cita.getFecha();
-        Time horaInicio = cita.getHoraInicio();
-        // Puedes también obtener otros datos necesarios de la cita si es necesario
+        LocalTime horaInicio = cita.getHoraInicio();
+        LocalTime horaFin = cita.getHoraFin();
 
-        if (citaService.verificarDisponibilidad(fecha, horaInicio)) {
+        if (citaService.verificarDisponibilidad(fecha, horaInicio, horaFin)) {
             try {
                 citaService.programarCita(cita);
                 return ResponseEntity.ok("Cita programada con éxito.");
@@ -41,9 +46,12 @@ public class CitaController {
 
 
     @DeleteMapping("/cancelar/{idCita}")
-    public ResponseEntity<String> cancelarCita(@PathVariable Integer idCita) {
-        if (citaService.cancelarCita(idCita)) {
-            return ResponseEntity.ok("Cita cancelada con éxito.");
+    public ResponseEntity<String> cancelarCita(@PathVariable Long idCita) {
+        Optional<Cita> citaOptional = citaRepository.findById(idCita);
+
+        if (citaOptional.isPresent()) {
+            citaRepository.deleteById(idCita); // Elimina la cita por su ID
+            return ResponseEntity.ok("Cita eliminada con éxito.");
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se encontró la cita con el ID proporcionado.");
         }

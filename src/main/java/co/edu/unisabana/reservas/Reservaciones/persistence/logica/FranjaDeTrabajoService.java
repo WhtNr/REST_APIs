@@ -43,13 +43,6 @@ public class FranjaDeTrabajoService {
         return franjaDeTrabajoRepository.save(franjaExistente);
     }
 
-    public FranjaDeTrabajo obtenerFranjaDeTrabajoPorId(Long id) throws ChangeSetPersister.NotFoundException {
-        return franjaDeTrabajoRepository.findById(id)
-                .orElseThrow(() -> new ChangeSetPersister.NotFoundException());
-    }
 
-    public List<FranjaDeTrabajo> obtenerTodasLasFranjasDeTrabajo() {
-        return franjaDeTrabajoRepository.findAll();
-    }
 
 }

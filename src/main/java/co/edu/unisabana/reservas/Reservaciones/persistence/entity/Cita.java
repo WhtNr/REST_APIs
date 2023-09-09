@@ -1,8 +1,8 @@
 package co.edu.unisabana.reservas.Reservaciones.persistence.entity;
 
-import java.sql.Date;
-import java.sql.Time;
+
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 
 import jakarta.persistence.*;
@@ -27,10 +27,10 @@ public class Cita {
     private long idServicio;
 
     @Column(name = "hora_inicio")
-    private Time horaInicio;
+    private LocalTime horaInicio;
 
     @Column(name = "hora_fin")
-    private Time horaFin;
+    private LocalTime horaFin;
 
     private LocalDate fecha;
 
