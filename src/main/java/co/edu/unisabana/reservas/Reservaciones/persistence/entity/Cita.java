@@ -11,19 +11,19 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "turno")
-public class Turno {
+@Table(name = "cita")
+public class Cita {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_turno")
-    private Integer idTurno;
+    @Column(name = "id_cita")
+    private long idCita;
 
     @Column(name = "id_personal")
-    private Integer idPersonal;
+    private long idPersonal;
 
     @Column(name = "id_servicio")
-    private Integer idServicio;
+    private long idServicio;
 
     @Column(name = "hora_inicio")
     private Time horaInicio;
@@ -36,7 +36,7 @@ public class Turno {
     private Boolean estado;
 
 
-    @OneToMany(mappedBy = "turno")
+    @OneToMany(mappedBy = "cita")
     private List<Asistencia> asistencias;
 
     @ManyToOne

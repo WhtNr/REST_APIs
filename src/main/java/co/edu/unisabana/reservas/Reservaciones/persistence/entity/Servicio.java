@@ -15,17 +15,17 @@ public class Servicio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_servicio")
-    private Integer idServicio;
+    private long idServicio;
 
     private String nombre;
 
     private Integer duracion;
 
-    private Integer precio;
+    private long precio;
 
     private String descripcion;
 
 
     @OneToMany(mappedBy = "servicio")
-    private List<Turno> turnos;
+    private List<Cita> citas;
 }

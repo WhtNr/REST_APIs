@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.Reservaciones;
+package co.edu.unisabana.reservas.Reservaciones.Repositorios;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -13,10 +13,7 @@ import java.util.List;
 
 @Repository
 public interface FranjaDeTrabajoRepository extends JpaRepository<FranjaDeTrabajo, Long> {
-    // Método de consulta personalizado utilizando una convención de nombres
     List<FranjaDeTrabajo> findByHoraInicioBefore(LocalTime hora);
-
-    // Método de consulta personalizado utilizando una consulta JPQL
 
     @Query("SELECT f FROM FranjaDeTrabajo f WHERE f.fechaLaborable = :fecha")
     List<FranjaDeTrabajo> findByFecha(@Param("fecha") LocalDate fecha);

@@ -19,15 +19,11 @@ public class FranjaDeTrabajoController {
 
     @Autowired
     private FranjaDeTrabajoService franjaDeTrabajoService;
-
-    // Endpoint para crear una nueva configuración de franja de trabajo
     @PostMapping
     public ResponseEntity<FranjaDeTrabajo> crearFranjaDeTrabajo(@RequestBody FranjaDeTrabajo franjaDeTrabajo) {
         FranjaDeTrabajo nuevaFranja = franjaDeTrabajoService.crearFranjaDeTrabajo(franjaDeTrabajo);
         return new ResponseEntity<>(nuevaFranja, HttpStatus.CREATED);
     }
-
-    // Endpoint para actualizar la configuración de franja de trabajo existente
     @PutMapping(path="/{id}")
     public ResponseEntity<FranjaDeTrabajo> actualizarFranjaDeTrabajo(@PathVariable Long id, @RequestBody FranjaDeTrabajo franjaDeTrabajo) throws ChangeSetPersister.NotFoundException {
         FranjaDeTrabajo franjaActualizada = franjaDeTrabajoService.actualizarFranjaDeTrabajo(id, franjaDeTrabajo);
@@ -39,23 +35,16 @@ public class FranjaDeTrabajoController {
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.TIME) LocalTime horaDeseada) {
 
         try {
-            // Agregar registros para rastrear la ejecución
             System.out.println("Solicitud de disponibilidad recibida para fecha: " + fecha + " y hora deseada: " + horaDeseada);
 
-            // Lógica para consultar la disponibilidad en función de la fecha y la hora
             List<FranjaDeTrabajo> franjasDisponibles = franjaDeTrabajoService.consultarDisponibilidad(fecha, horaDeseada);
 
-            // Agregar registros para verificar los resultados
             System.out.println("Franjas disponibles encontradas: " + franjasDisponibles.size());
 
             return new ResponseEntity<>(franjasDisponibles, HttpStatus.OK);
         } catch (Exception e) {
-            // Manejar excepciones e imprimir detalles en los registros
             e.printStackTrace();
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
-
-    // Otros métodos del controlador para consultar y gestionar la configuración de franja de trabajo
 }

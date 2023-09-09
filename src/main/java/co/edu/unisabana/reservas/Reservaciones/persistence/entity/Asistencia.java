@@ -13,13 +13,13 @@ public class Asistencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_asistencia")
-    private Integer idAsistencia;
+    private long idAsistencia;
 
     @Column(name = "id_cliente")
-    private Integer idCliente;
+    private long idCliente;
 
-    @Column(name = "id_turno")
-    private Integer idTurno;
+    @Column(name = "id_cita")
+    private long idCita;
 
     private String estado;
 
@@ -29,6 +29,6 @@ public class Asistencia {
     private Cliente cliente;
 
     @ManyToOne
-    @JoinColumn(name = "id_turno", insertable = false, updatable = false)
-    private Turno turno;
+    @JoinColumn(name = "id_cita", insertable = false, updatable = false)
+    private Cita cita;
 }

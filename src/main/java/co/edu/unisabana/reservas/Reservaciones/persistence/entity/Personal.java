@@ -15,7 +15,7 @@ public class Personal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_personal")
-    private Integer idPersonal;
+    private long idPersonal;
 
     private String nombre;
 
@@ -24,5 +24,5 @@ public class Personal {
     private String especialidad;
 
     @OneToMany(mappedBy = "personal")
-    private List<Turno> turnos;
+    private List<Cita> citas;
 }
