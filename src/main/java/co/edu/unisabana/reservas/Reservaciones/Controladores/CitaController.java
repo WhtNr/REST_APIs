@@ -8,6 +8,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.Time;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 @RestController
 @RequestMapping("/api/citas")
 public class CitaController {
@@ -17,13 +21,24 @@ public class CitaController {
 
     @PostMapping("/programar")
     public ResponseEntity<String> programarCita(@RequestBody Cita cita) {
-        if (citaService.verificarDisponibilidad(cita)) {
-            citaService.programarCita(cita);
-            return ResponseEntity.ok("Cita programada con éxito.");
+        LocalDate fecha = cita.getFecha();
+        Time horaInicio = cita.getHoraInicio();
+        // Puedes también obtener otros datos necesarios de la cita si es necesario
+
+        if (citaService.verificarDisponibilidad(fecha, horaInicio)) {
+            try {
+                citaService.programarCita(cita);
+                return ResponseEntity.ok("Cita programada con éxito.");
+            } catch (Exception e) {
+                // Manejar cualquier excepción que pueda ocurrir durante la programación de la cita
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body("Ocurrió un error al programar la cita.");
+            }
         } else {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("La cita no está disponible.");
         }
     }
+
 
     @DeleteMapping("/cancelar/{idCita}")
     public ResponseEntity<String> cancelarCita(@PathVariable Integer idCita) {

@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 import java.sql.Date;
 import java.sql.Time;
+import java.time.LocalDate;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -15,12 +17,16 @@ public class CitaService {
     @Autowired
     private CitaRepository citaRepository;
 
-    public boolean verificarDisponibilidad(Cita cita) {
+    public boolean verificarDisponibilidad(LocalDate fecha, Time horaDeseada) {
+        List<Cita> citasExisten = citaRepository.findByFechaAndHoraInicioBetween(fecha, horaDeseada, horaDeseada);
 
-        return false;
+        return citasExisten.isEmpty();
     }
 
     public void programarCita(Cita cita) {
+
+        cita.setEstado(true);
+        citaRepository.save(cita);
 
     }
     public boolean cancelarCita(long idCita) {
@@ -42,7 +48,7 @@ public class CitaService {
 
         if (citaOptional.isPresent()) {
             Cita cita = citaOptional.get();
-            cita.setFecha(Date.valueOf(request.getNuevaFecha()));
+            cita.setFecha(Date.valueOf(request.getNuevaFecha()).toLocalDate());
             cita.setHoraInicio(Time.valueOf(request.getNuevaHoraInicio()));
             cita.setHoraFin(Time.valueOf(request.getNuevaHoraFin()));
             citaRepository.save(cita);
