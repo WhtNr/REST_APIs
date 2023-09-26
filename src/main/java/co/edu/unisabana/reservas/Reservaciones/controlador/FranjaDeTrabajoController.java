@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.Reservaciones.Controladores;
+package co.edu.unisabana.reservas.Reservaciones.controlador;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import co.edu.unisabana.reservas.Reservaciones.persistence.logica.FranjaDeTrabajoService;

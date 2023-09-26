@@ -1,15 +1,14 @@
-package co.edu.unisabana.reservas.Reservaciones.Controladores;
+package co.edu.unisabana.reservas.Reservaciones.controlador;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.Reservaciones.persistence.logica.CitaService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.logica.ReprogramacionCitaRequest;
-import co.edu.unisabana.reservas.Reservaciones.Repositorios.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Optional;

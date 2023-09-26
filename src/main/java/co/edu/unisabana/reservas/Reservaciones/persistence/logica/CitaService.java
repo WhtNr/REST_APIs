@@ -1,13 +1,12 @@
 package co.edu.unisabana.reservas.Reservaciones.persistence.logica;
 
-import co.edu.unisabana.reservas.Reservaciones.Repositorios.CitaRepository;
-import co.edu.unisabana.reservas.Reservaciones.Repositorios.FranjaDeTrabajoRepository;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.Time;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;

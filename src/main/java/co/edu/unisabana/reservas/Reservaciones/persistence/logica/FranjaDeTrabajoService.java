@@ -1,6 +1,6 @@
 package co.edu.unisabana.reservas.Reservaciones.persistence.logica;
 
-import co.edu.unisabana.reservas.Reservaciones.Repositorios.FranjaDeTrabajoRepository;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.crossstore.ChangeSetPersister;
