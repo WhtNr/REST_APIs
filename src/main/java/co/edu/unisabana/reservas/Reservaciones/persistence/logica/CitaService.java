@@ -1,10 +1,9 @@
 package co.edu.unisabana.reservas.Reservaciones.persistence.logica;
 
-import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
-import org.springframework.beans.factory.annotation.Autowired;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -15,11 +14,13 @@ import java.util.Optional;
 @Service
 public class CitaService {
 
-    @Autowired
-    private CitaRepository citaRepository;
-    @Autowired
-    private FranjaDeTrabajoRepository franjaDeTrabajoRepository;
+    private final CitaRepository citaRepository;
+    private final FranjaDeTrabajoRepository franjaDeTrabajoRepository;
 
+    public CitaService(CitaRepository citaRepository, FranjaDeTrabajoRepository franjaDeTrabajoRepository) {
+        this.citaRepository = citaRepository;
+        this.franjaDeTrabajoRepository = franjaDeTrabajoRepository;
+    }
 
     public boolean verificarDisponibilidad(LocalDate fecha, LocalTime horaInicio, LocalTime horaFin) {
 
@@ -30,11 +31,7 @@ public class CitaService {
 
                 List<Cita> citasExisten = citaRepository.findByFechaAndHoraInicioBetween(fecha, horaInicio, horaFin);
 
-                if (citasExisten.isEmpty()) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return citasExisten.isEmpty();
             }
         }
 
