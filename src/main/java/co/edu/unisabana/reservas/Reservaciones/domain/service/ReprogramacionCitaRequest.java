@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.Reservaciones.persistence.logica;
+package co.edu.unisabana.reservas.Reservaciones.domain.service;
 
 import lombok.Getter;
 import lombok.Setter;

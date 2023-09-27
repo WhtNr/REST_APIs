@@ -1,9 +1,9 @@
-package co.edu.unisabana.reservas.Reservaciones.persistence.logica;
+package co.edu.unisabana.reservas.Reservaciones.domain.service;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.repository.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.repository.FranjaDeTrabajoRepository;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;

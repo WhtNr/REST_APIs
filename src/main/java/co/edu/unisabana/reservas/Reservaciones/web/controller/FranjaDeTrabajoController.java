@@ -1,7 +1,8 @@
-package co.edu.unisabana.reservas.Reservaciones.controlador;
+package co.edu.unisabana.reservas.Reservaciones.web.controller;
 
+import co.edu.unisabana.reservas.Reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
-import co.edu.unisabana.reservas.Reservaciones.persistence.logica.FranjaDeTrabajoService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.format.annotation.DateTimeFormat;

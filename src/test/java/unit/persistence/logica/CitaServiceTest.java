@@ -1,9 +1,10 @@
 package unit.persistence.logica;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
-import co.edu.unisabana.reservas.Reservaciones.persistence.logica.CitaService;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.FranjaDeTrabajoRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.repository.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.repository.FranjaDeTrabajoRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.service.CitaService;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

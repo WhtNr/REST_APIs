@@ -1,9 +1,10 @@
-package co.edu.unisabana.reservas.Reservaciones.controlador;
+package co.edu.unisabana.reservas.Reservaciones.web.controller;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
-import co.edu.unisabana.reservas.Reservaciones.persistence.logica.CitaService;
-import co.edu.unisabana.reservas.Reservaciones.persistence.logica.ReprogramacionCitaRequest;
-import co.edu.unisabana.reservas.Reservaciones.repositorio.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.repository.CitaRepository;
+import co.edu.unisabana.reservas.Reservaciones.domain.service.CitaService;
+import co.edu.unisabana.reservas.Reservaciones.domain.service.ReprogramacionCitaRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

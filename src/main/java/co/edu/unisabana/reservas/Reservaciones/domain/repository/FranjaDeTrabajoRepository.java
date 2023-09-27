@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.Reservaciones.repositorio;
+package co.edu.unisabana.reservas.Reservaciones.domain.repository;
 
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import org.springframework.data.jpa.repository.JpaRepository;
