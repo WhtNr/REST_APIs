@@ -26,8 +26,5 @@ public class FranjaDeTrabajoDTO {
         this.horaFin = franjaDeTrabajo.getHoraFin();
     }
 
-    // Método estático para convertir una lista de entidades FranjaDeTrabajo a una lista de DTOs
-    public static List<FranjaDeTrabajoDTO> toFranjaDeTrabajoDTOList(List<FranjaDeTrabajo> franjas) {
-        return franjas.stream().map(FranjaDeTrabajoDTO::new).collect(Collectors.toList());
-    }
+
 }

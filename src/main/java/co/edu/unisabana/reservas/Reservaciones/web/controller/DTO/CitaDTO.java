@@ -16,7 +16,7 @@ public class CitaDTO {
 
     // Getters y setters para todos los campos
 
-    // Otros métodos si es necesario, como toString, equals, hashCode, etc.
+
 
     // No se incluye lógica de negocio aquí, solo campos y métodos relacionados con la transferencia de datos.
 }

@@ -25,9 +25,6 @@ public class ClienteDTO {
         this.correo = cliente.getCorreo();
     }
 
-    // Método estático para convertir una lista de entidades Cliente a una lista de DTOs
-    public static List<ClienteDTO> toClienteDTOList(List<Cliente> clientes) {
-        return clientes.stream().map(ClienteDTO::new).collect(Collectors.toList());
-    }
+
 
 }

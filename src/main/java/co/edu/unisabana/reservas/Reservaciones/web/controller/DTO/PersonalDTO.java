@@ -24,8 +24,5 @@ public class PersonalDTO {
         this.especialidad = personal.getEspecialidad();
     }
 
-    // Método estático para convertir una lista de entidades Personal a una lista de DTOs
-    public static List<PersonalDTO> toPersonalDTOList(List<Personal> personalList) {
-        return personalList.stream().map(PersonalDTO::new).collect(Collectors.toList());
-    }
+
 }
