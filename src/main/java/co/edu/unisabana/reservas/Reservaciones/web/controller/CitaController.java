@@ -18,12 +18,13 @@ import java.util.Optional;
 @RequestMapping("/api/citas")
 public class CitaController {
 
-    @Autowired
-    private CitaService citaService;
+    private final CitaService citaService;
+    private final CitaRepository citaRepository;
 
-    @Autowired
-    private CitaRepository citaRepository;
-
+    public CitaController(CitaService citaService, CitaRepository citaRepository) {
+        this.citaService = citaService;
+        this.citaRepository = citaRepository;
+    }
     @PostMapping("/programar")
     public ResponseEntity<String> programarCita(@RequestBody Cita cita) {
         LocalDate fecha = cita.getFecha();

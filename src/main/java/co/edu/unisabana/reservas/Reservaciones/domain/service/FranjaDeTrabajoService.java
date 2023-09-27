@@ -13,8 +13,11 @@ import java.util.List;
 @Service
 public class FranjaDeTrabajoService {
 
-    @Autowired
-    private FranjaDeTrabajoRepository franjaDeTrabajoRepository;
+    private final FranjaDeTrabajoRepository franjaDeTrabajoRepository;
+
+    public FranjaDeTrabajoService(FranjaDeTrabajoRepository franjaDeTrabajoRepository) {
+        this.franjaDeTrabajoRepository = franjaDeTrabajoRepository;
+    }
 
     public FranjaDeTrabajo crearFranjaDeTrabajo(FranjaDeTrabajo franjaDeTrabajo) {
         return franjaDeTrabajoRepository.save(franjaDeTrabajo);
