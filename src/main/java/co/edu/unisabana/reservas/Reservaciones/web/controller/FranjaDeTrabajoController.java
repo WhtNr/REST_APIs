@@ -19,8 +19,12 @@ import java.util.List;
 @RequestMapping("/api/franja-de-trabajo")
 public class FranjaDeTrabajoController {
 
-    @Autowired
-    private FranjaDeTrabajoService franjaDeTrabajoService;
+    private final FranjaDeTrabajoService franjaDeTrabajoService;
+
+    public FranjaDeTrabajoController(FranjaDeTrabajoService franjaDeTrabajoService) {
+        this.franjaDeTrabajoService = franjaDeTrabajoService;
+    }
+
     @PostMapping
     public ResponseEntity<FranjaDeTrabajo> crearFranjaDeTrabajo(@RequestBody FranjaDeTrabajo franjaDeTrabajo) {
         FranjaDeTrabajo nuevaFranja = franjaDeTrabajoService.crearFranjaDeTrabajo(franjaDeTrabajo);
