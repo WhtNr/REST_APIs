@@ -2,8 +2,6 @@ package co.edu.unisabana.reservas.Reservaciones.web.controller;
 
 import co.edu.unisabana.reservas.Reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
@@ -49,7 +47,6 @@ public class FranjaDeTrabajoController {
 
             return new ResponseEntity<>(franjasDisponibles, HttpStatus.OK);
         } catch (Exception e) {
-            e.printStackTrace();
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

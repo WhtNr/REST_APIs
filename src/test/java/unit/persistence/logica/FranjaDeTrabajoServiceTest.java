@@ -61,16 +61,15 @@ public class FranjaDeTrabajoServiceTest {
 
     @Test
     public void testActualizarFranjaDeTrabajo() throws ChangeSetPersister.NotFoundException {
-        Long id = 1L; // ID de franja de trabajo existente
-        FranjaDeTrabajo nuevaFranjaDeTrabajo = new FranjaDeTrabajo(); // Crear una nueva franja de trabajo
-        FranjaDeTrabajo franjaExistente = new FranjaDeTrabajo(); // Crear una franja de trabajo existente de prueba
+        Long id = 1L;
+        FranjaDeTrabajo nuevaFranjaDeTrabajo = new FranjaDeTrabajo();
+        FranjaDeTrabajo franjaExistente = new FranjaDeTrabajo();
 
         when(franjaDeTrabajoRepository.findById(id)).thenReturn(java.util.Optional.of(franjaExistente));
         when(franjaDeTrabajoRepository.save(franjaExistente)).thenReturn(franjaExistente);
 
         FranjaDeTrabajo resultado = franjaDeTrabajoService.actualizarFranjaDeTrabajo(id, nuevaFranjaDeTrabajo);
 
-        // Realiza las aserciones necesarias para verificar que el método funciona correctamente.
     }
 
 }
