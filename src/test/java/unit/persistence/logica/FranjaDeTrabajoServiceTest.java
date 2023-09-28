@@ -34,14 +34,15 @@ public class FranjaDeTrabajoServiceTest {
     }
 
     @Test
-    public void testCrearFranjaDeTrabajo() {
-        FranjaDeTrabajo franjaDeTrabajo = new FranjaDeTrabajo(); // Crear una franja de trabajo de prueba
+    public void givenFranjaDeTrabajoCuandoCrearEntoncesDevuelveLaFranjaDeTrabajoCreada() {
+        FranjaDeTrabajo franjaDeTrabajo = new FranjaDeTrabajo();
         when(franjaDeTrabajoRepository.save(franjaDeTrabajo)).thenReturn(franjaDeTrabajo);
 
         FranjaDeTrabajo resultado = franjaDeTrabajoService.crearFranjaDeTrabajo(franjaDeTrabajo);
 
         assertEquals(franjaDeTrabajo, resultado);
     }
+
 
     @Test
     public void testConsultarDisponibilidad() {
