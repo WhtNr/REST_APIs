@@ -27,17 +27,15 @@ public class FranjaDeTrabajoService {
 
         List<FranjaDeTrabajo> franjasDelDia = franjaDeTrabajoRepository.findByFecha(fecha);
 
-        List<FranjaDeTrabajo> franjasDisponibles = franjasDelDia.stream()
+        return franjasDelDia.stream()
                 .filter(franja -> horaDeseada.isAfter(franja.getHoraInicio()) && horaDeseada.isBefore(franja.getHoraFin()))
                 .toList();
-
-        return franjasDisponibles;
     }
 
     public FranjaDeTrabajo actualizarFranjaDeTrabajo(Long id, FranjaDeTrabajo nuevaFranjaDeTrabajo) throws ChangeSetPersister.NotFoundException {
 
         FranjaDeTrabajo franjaExistente = franjaDeTrabajoRepository.findById(id)
-                .orElseThrow(() -> new ChangeSetPersister.NotFoundException());
+                .orElseThrow(ChangeSetPersister.NotFoundException::new);
 
         franjaExistente.setFechaLaborable(nuevaFranjaDeTrabajo.getFechaLaborable());
         franjaExistente.setHoraInicio(nuevaFranjaDeTrabajo.getHoraInicio());
