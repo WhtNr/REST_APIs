@@ -1,4 +1,4 @@
-package unit.persistence.logica;
+package unit.domain.service;
 
 import co.edu.unisabana.reservas.Reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;

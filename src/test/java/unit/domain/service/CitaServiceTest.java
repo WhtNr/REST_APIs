@@ -1,4 +1,4 @@
-package unit.persistence.logica;
+package unit.domain.service;
 
 import co.edu.unisabana.reservas.Reservaciones.domain.repository.CitaRepository;
 import co.edu.unisabana.reservas.Reservaciones.domain.repository.FranjaDeTrabajoRepository;

@@ -1,7 +1,8 @@
-package co.edu.unisabana.reservas.Reservaciones.web.controller;
+package unit.web.controller;
 
 import co.edu.unisabana.reservas.Reservaciones.domain.service.CitaService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.Cita;
+import co.edu.unisabana.reservas.Reservaciones.web.controller.CitaController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -50,6 +51,27 @@ public class CitaControllerTest {
 
         // Verificamos que el método programarCita en el servicio no se haya llamado
         verify(citaService, never()).programarCita(cita);
+    }
+
+    @Test
+    public void programarCita_DisponibilidadVerificada_CitaProgramadaConExito() {
+        // Creamos una instancia de Cita y configuramos la verificación de disponibilidad para que sea verdadera
+        Cita cita = new Cita();
+        LocalDate fecha = LocalDate.of(2023, 9, 28);
+        LocalTime horaInicio = LocalTime.of(9, 0);
+        LocalTime horaFin = LocalTime.of(11, 0);
+
+        when(citaService.verificarDisponibilidad(fecha, horaInicio, horaFin)).thenReturn(true);
+
+        // Llamamos al método que queremos probar
+        ResponseEntity<String> respuesta = citaController.programarCita(cita);
+
+        // Verificamos que la respuesta sea un ResponseEntity con código 200 y un mensaje de éxito
+        assertEquals(HttpStatus.OK, respuesta.getStatusCode());
+        assertEquals("Cita programada con éxito.", respuesta.getBody());
+
+        // Verificamos que se haya llamado al método programarCita en el servicio
+        verify(citaService, times(1)).programarCita(cita);
     }
 
 
