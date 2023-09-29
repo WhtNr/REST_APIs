@@ -1,4 +1,4 @@
-package unit.web.controller;
+package controller;
 
 import co.edu.unisabana.reservas.Reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
