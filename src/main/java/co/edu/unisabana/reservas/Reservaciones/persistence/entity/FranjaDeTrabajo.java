@@ -1,6 +1,7 @@
 package co.edu.unisabana.reservas.Reservaciones.persistence.entity;
 
 import jakarta.persistence.*;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,6 +13,7 @@ import java.time.LocalTime;
 @Entity
 @Getter
 @Setter
+@EqualsAndHashCode
 public class FranjaDeTrabajo {
 
     @Id
@@ -22,5 +24,7 @@ public class FranjaDeTrabajo {
     private LocalDate fechaLaborable;
     private LocalTime horaInicio;
     private LocalTime horaFin;
+
+
 
 }

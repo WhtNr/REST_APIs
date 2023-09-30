@@ -28,11 +28,7 @@ public class FranjaDeTrabajoController {
         FranjaDeTrabajo nuevaFranja = franjaDeTrabajoService.crearFranjaDeTrabajo(franjaDeTrabajo);
         return new ResponseEntity<>(nuevaFranja, HttpStatus.CREATED);
     }
-    @PutMapping(path="/{id}")
-    public ResponseEntity<FranjaDeTrabajo> actualizarFranjaDeTrabajo(@PathVariable Long id, @RequestBody FranjaDeTrabajo franjaDeTrabajo) throws ChangeSetPersister.NotFoundException {
-        FranjaDeTrabajo franjaActualizada = franjaDeTrabajoService.actualizarFranjaDeTrabajo(id, franjaDeTrabajo);
-        return new ResponseEntity<>(franjaActualizada, HttpStatus.OK);
-    }
+
     @GetMapping("/disponibilidad")
     public ResponseEntity<List<FranjaDeTrabajo>> consultarDisponibilidad(
             @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fecha,

@@ -14,7 +14,9 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.*;
 
 public class FranjaDeTrabajoServiceTest {
@@ -29,7 +31,7 @@ public class FranjaDeTrabajoServiceTest {
         try (AutoCloseable mocks = MockitoAnnotations.openMocks(this)) {
             franjaDeTrabajoService = new FranjaDeTrabajoService(franjaDeTrabajoRepository);
         } catch (Exception e) {
-            // Maneja cualquier excepción si ocurre
+
         }
     }
 
@@ -47,18 +49,30 @@ public class FranjaDeTrabajoServiceTest {
     @Test
     public void testConsultarDisponibilidad() {
         LocalDate fecha = LocalDate.now();
-        LocalTime horaDeseada = LocalTime.of(10, 0); // Hora deseada
-        List<FranjaDeTrabajo> franjasDelDia = new ArrayList<>(); // Crear una lista de franjas de trabajo de prueba
-        // Agregar franjas de trabajo a la lista
+        LocalTime horaDeseada = LocalTime.of(10, 0);
+        List<FranjaDeTrabajo> franjasDelDia = new ArrayList<>();
+
+
+        FranjaDeTrabajo franja1 = new FranjaDeTrabajo();
+        franja1.setHoraInicio(LocalTime.of(9, 0));
+        franja1.setHoraFin(LocalTime.of(11, 0));
+        franjasDelDia.add(franja1);
+
+        FranjaDeTrabajo franja2 = new FranjaDeTrabajo();
+        franja2.setHoraInicio(LocalTime.of(14, 0));
+        franja2.setHoraFin(LocalTime.of(16, 0));
+        franjasDelDia.add(franja2);
+
 
         when(franjaDeTrabajoRepository.findByFecha(fecha)).thenReturn(franjasDelDia);
 
         List<FranjaDeTrabajo> resultado = franjaDeTrabajoService.consultarDisponibilidad(fecha, horaDeseada);
 
-        // Realiza las aserciones necesarias para verificar que el método funciona correctamente.
 
-
+        assertTrue(resultado.contains(franja1));
+        assertFalse(resultado.contains(franja2));
     }
+
 
     @Test
     public void testActualizarFranjaDeTrabajo() throws ChangeSetPersister.NotFoundException {
