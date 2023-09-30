@@ -10,6 +10,6 @@ import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabaj
     
 public interface FranjadeTrabajoCrudRepository extends CrudRepository<FranjaDeTrabajo, Long> {
     List<FranjaDeTrabajo> findByHoraInicioBefore(LocalTime horaInicio);
-    List<FranjaDeTrabajo> findByFecha(LocalDate fechaLaborable);
+    List<FranjaDeTrabajo> findByFechaLaborable(LocalDate fechaLaborable);
 }
 
