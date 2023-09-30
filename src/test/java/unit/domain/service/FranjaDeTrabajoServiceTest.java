@@ -3,6 +3,7 @@ package unit.domain.service;
 import co.edu.unisabana.reservas.Reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.Reservaciones.persistence.entity.FranjaDeTrabajo;
 import co.edu.unisabana.reservas.Reservaciones.domain.repository.FranjaDeTrabajoRepository;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -70,7 +71,7 @@ public class FranjaDeTrabajoServiceTest {
 
 
         assertTrue(resultado.contains(franja1));
-        assertFalse(resultado.contains(franja2));
+        Assertions.assertFalse(resultado.contains(franja2));
     }
 
 

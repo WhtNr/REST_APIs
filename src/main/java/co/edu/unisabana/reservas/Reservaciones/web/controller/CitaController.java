@@ -36,7 +36,7 @@ public class CitaController {
                 citaService.programarCita(cita);
                 return ResponseEntity.ok("Cita programada con éxito.");
             } catch (Exception e) {
-                // Manejar cualquier excepción que pueda ocurrir durante la programación de la cita
+
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                         .body("Ocurrió un error al programar la cita.");
             }
@@ -51,7 +51,7 @@ public class CitaController {
         Optional<Cita> citaOptional = citaRepository.findById(idCita);
 
         if (citaOptional.isPresent()) {
-            citaRepository.deleteById(idCita); // Elimina la cita por su ID
+            citaRepository.deleteById(idCita);
             return ResponseEntity.ok("Cita eliminada con éxito.");
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se encontró la cita con el ID proporcionado.");

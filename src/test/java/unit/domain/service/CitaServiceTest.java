@@ -99,7 +99,7 @@ public class CitaServiceTest {
 
     @Test
     public void verificarDisponibilidad_FranjaDisponible_DebeRetornarTrue() {
-        // Configuramos una franja de trabajo simulada para la fecha y hora especificadas
+
         LocalDate fecha = LocalDate.of(2023, 9, 28);
         LocalTime horaInicio = LocalTime.of(9, 0);
         LocalTime horaFin = LocalTime.of(11, 0);
@@ -110,23 +110,23 @@ public class CitaServiceTest {
         List<FranjaDeTrabajo> franjasDelDia = new ArrayList<>();
         franjasDelDia.add(franja);
 
-        // Configuramos el repositorio de franjas para que devuelva la franja simulada
+
         when(franjaDeTrabajoRepository.findByFecha(fecha)).thenReturn(franjasDelDia);
 
-        // Configuramos el repositorio de citas para que no haya citas en ese intervalo
+
         when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class)))
                 .thenReturn(new ArrayList<>());
 
-        // Llamamos al método que queremos probar
+
         boolean resultado = citaService.verificarDisponibilidad(fecha, horaInicio, horaFin);
 
-        // Verificamos que el método haya retornado true, ya que la franja está disponible
+
         assertTrue(resultado);
     }
 
     @Test
     public void verificarDisponibilidad_FranjaNoDisponible_DebeRetornarFalse() {
-        // Configuramos una franja de trabajo simulada para la fecha y hora especificadas
+
         LocalDate fecha = LocalDate.of(2023, 9, 28);
         LocalTime horaInicio = LocalTime.of(9, 0);
         LocalTime horaFin = LocalTime.of(11, 0);
@@ -137,59 +137,57 @@ public class CitaServiceTest {
         List<FranjaDeTrabajo> franjasDelDia = new ArrayList<>();
         franjasDelDia.add(franja);
 
-        // Configuramos el repositorio de franjas para que devuelva la franja simulada
+
         when(franjaDeTrabajoRepository.findByFecha(fecha)).thenReturn(franjasDelDia);
 
-        // Configuramos el repositorio de citas para que haya una cita en ese intervalo
+
         Cita citaExistente = new Cita();
         when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class)))
                 .thenReturn(List.of(citaExistente));
 
-        // Llamamos al método que queremos probar
+
         boolean resultado = citaService.verificarDisponibilidad(fecha, horaInicio, horaFin);
 
-        // Verificamos que el método haya retornado false, ya que la franja no está disponible
+
         assertFalse(resultado);
     }
 
     @Test
     public void programarCita_CitaNoProgramada_EstadoCambiadoYGuardado() {
-        // Creamos una instancia de Cita que no está programada
+
         Cita cita = new Cita();
         cita.setEstado(false);
 
-        // Configuramos el repositorio para que devuelva la misma instancia de Cita cuando se guarde
+
         when(citaRepository.save(cita)).thenReturn(cita);
 
-        // Llamamos al método que queremos probar
+
         citaService.programarCita(cita);
 
-        // Verificamos que el estado de la Cita haya cambiado a true después de llamar al método
+
         assertTrue(cita.getEstado());
 
-        // Verificamos que se haya llamado al método save en el repositorio
+
         verify(citaRepository, times(1)).save(cita);
     }
 
     @Test
     public void programarCita_CitaYaProgramada_EstadoNoCambiadoYGuardado() {
-        // Creamos una instancia de Cita que ya está programada
+
         Cita cita = new Cita();
         cita.setEstado(true);
 
-        // Configuramos el repositorio para que devuelva la misma instancia de Cita cuando se guarde
+
         when(citaRepository.save(cita)).thenReturn(cita);
 
-        // Llamamos al método que queremos probar
         citaService.programarCita(cita);
 
-        // Verificamos que el estado de la Cita no haya cambiado (debe seguir siendo true)
+
         assertTrue(cita.getEstado());
 
-        // Verificamos que se haya llamado al método save en el repositorio
+
         verify(citaRepository, times(1)).save(cita);
     }
 
 
-    // Agrega más pruebas para los otros métodos según sea necesario
 }

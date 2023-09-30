@@ -35,11 +35,11 @@ public class FranjaDeTrabajoControllerTest {
 
         @Test
     public void testCrearFranjaDeTrabajo() throws Exception {
-        // Configura el comportamiento del mock de FranjaDeTrabajoService
+
         FranjaDeTrabajo franja = new FranjaDeTrabajo();
         when(franjaDeTrabajoService.crearFranjaDeTrabajo(argThat(franja::equals))).thenReturn(franja);
 
-        // Realiza la solicitud
+
         mockMvc.perform(MockMvcRequestBuilders
                         .post("/api/franja-de-trabajo")
                         .content(asJsonString(franja))
@@ -47,7 +47,7 @@ public class FranjaDeTrabajoControllerTest {
                         .accept(MediaType.APPLICATION_JSON))
                         .andExpect(MockMvcResultMatchers.status().isCreated());
 
-        // Verifica que se llamó al método esperado en el servicio
+
         verify(franjaDeTrabajoService, times(1)).crearFranjaDeTrabajo(argThat(franja::equals));
     }
 
