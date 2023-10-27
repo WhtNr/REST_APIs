@@ -78,3 +78,15 @@ tasks.withType(JacocoReport) {
 		}))
 	}
 }
+
+
+pitest {
+	junit5PluginVersion = "1.0.0"
+
+}
+
+sonarqube {
+	properties {
+		property("sonar.projectName", "reservaciones")
+	}
+}
