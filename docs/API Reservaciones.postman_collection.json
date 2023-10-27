@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "017e227e-fce7-401e-9124-b750e4abbeb9",
+		"name": "API Reservaciones",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30161368"
+	},
+	"item": [
+		{
+			"name": " http://localhost:8080/api/franja-de-trabajo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fechaLaborable\": \"2023-10-01\",\n    \"horaInicio\": \"10:00:00\",\n    \"horaFin\": \"11:00:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/franja-de-trabajo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"franja-de-trabajo"
+					]
+				},
+				"description": "Disponibilidad de franja"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/franja-de-trabajo/disponibilidad?fecha=2023-09-30&horaDeseada=14:00:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/franja-de-trabajo/disponibilidad?fecha=2023-09-30&horaDeseada=14:00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"franja-de-trabajo",
+						"disponibilidad"
+					],
+					"query": [
+						{
+							"key": "fecha",
+							"value": "2023-09-30"
+						},
+						{
+							"key": "horaDeseada",
+							"value": "14:00:00"
+						}
+					]
+				},
+				"description": "Busca disponibilidad en franja horaria"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/citas/programar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idPersonal\": 1,\n    \"idServicio\": 2,\n    \"horaInicio\": \"14:00:00\",\n    \"horaFin\": \"15:00:00\",\n    \"fecha\": \"2023-09-28\",\n    \"estado\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/citas/cancelar/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"citas",
+						"cancelar",
+						"10"
+					]
+				},
+				"description": "Cancela una cita"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/citas/programar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idPersonal\": 1,\n    \"idServicio\": 2,\n    \"horaInicio\": \"12:00:00\",\n    \"horaFin\": \"13:00:00\",\n    \"fecha\": \"2023-09-30\",\n    \"estado\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/citas/programar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"citas",
+						"programar"
+					]
+				},
+				"description": "Programa una cita"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/citas/reprogramar/11",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nuevaFecha\": \"2023-10-15\",\n    \"nuevaHoraInicio\": \"14:30:00\",\n    \"nuevaHoraFin\": \"15:30:00\"\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/citas/reprogramar/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"citas",
+						"reprogramar",
+						"11"
+					]
+				},
+				"description": "Reprogramar una cita"
+			},
+			"response": []
+		}
+	]
+}
