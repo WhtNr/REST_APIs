@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8090:3306"
+  database:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: yms_password
+      MYSQL_DATABASE: yms
