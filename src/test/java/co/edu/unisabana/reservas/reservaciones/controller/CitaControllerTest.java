@@ -2,7 +2,13 @@ package co.edu.unisabana.reservas.reservaciones.controller;
 
 import co.edu.unisabana.reservas.reservaciones.ReservacionesApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.web.servlet.MockMvcBuilder;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.transaction.annotation.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -11,17 +17,24 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+import org.springframework.web.context.WebApplicationContext;
 
 
 @SpringBootTest(classes = ReservacionesApplication.class)
 @AutoConfigureMockMvc
 @Transactional
 
+@ExtendWith(MockitoExtension.class)
+@ActiveProfiles(profiles = "test")
 
 public class CitaControllerTest {
-@Autowired
+
     private MockMvc mockMvc;
 
+    @BeforeEach
+    public void setup(WebApplicationContext webApplicationContext) {
+        this.mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+    }
 
     @Test
     public void givenAvailableSlot_whenProgramarCita_thenSuccess() throws Exception {
@@ -55,10 +68,8 @@ public class CitaControllerTest {
         String citaJson = "{\"fecha\":\"2023-10-16\",\"horaInicio\":\"14:30:00\",\"horaFin\":\"15:30:00\"}";
 
 
-
-
         mockMvc.perform(MockMvcRequestBuilders
-                        .post("/tu-endpoint-aqui/programar-cita")
+                        .post("/programar-cita")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(asJsonString(citaJson)))
                 .andExpect(MockMvcResultMatchers.status().isNotFound());
@@ -83,8 +94,6 @@ public class CitaControllerTest {
     }
 
 
-
-
     // Método para convertir un objeto a una cadena JSON
     private static String asJsonString(final Object obj) {
         try {
@@ -93,8 +102,6 @@ public class CitaControllerTest {
             throw new RuntimeException(e);
         }
     }
-
-
 
 
 }
