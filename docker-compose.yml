@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://database:3306/yms
+
+  database:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: yms_password
+      MYSQL_DATABASE: yms
+      MYSQL_USER: yms_user
+      MYSQL_PASSWORD: yms_password
+    ports:
+      - "8090:3306"
