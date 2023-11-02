@@ -14,3 +14,7 @@ Para correr:
 docker run -d -p 8090:3306 -e MYSQL_ROOT_PASSWORD=clave mysql --name database -e MYSQL_USER=yms_user -e MYSQL_PASSWORD=yms_password -e MYSQL_DATABASE=yms mysql
 
 docker-compose up --build
+docker build -t app .                                                                                                                                          
+
+
+-
