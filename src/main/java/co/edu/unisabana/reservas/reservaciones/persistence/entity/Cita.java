@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "cita")
 public class Cita {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_cita")

@@ -16,11 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-public class FranjaDeTrabajoServiceTest {
+class FranjaDeTrabajoServiceTest {
 
     @Mock
     private FranjaDeTrabajoRepository franjaDeTrabajoRepository;
@@ -37,7 +36,7 @@ public class FranjaDeTrabajoServiceTest {
     }
 
     @Test
-    public void givenFranjaDeTrabajoCuandoCrearEntoncesDevuelveLaFranjaDeTrabajoCreada() {
+    void givenFranjaDeTrabajoCuandoCrearEntoncesDevuelveLaFranjaDeTrabajoCreada() {
         FranjaDeTrabajo franjaDeTrabajo = new FranjaDeTrabajo();
         when(franjaDeTrabajoRepository.save(franjaDeTrabajo)).thenReturn(franjaDeTrabajo);
 
@@ -48,7 +47,7 @@ public class FranjaDeTrabajoServiceTest {
 
 
     @Test
-    public void testConsultarDisponibilidad() {
+    void testConsultarDisponibilidad() {
         LocalDate fecha = LocalDate.now();
         LocalTime horaDeseada = LocalTime.of(10, 0);
         List<FranjaDeTrabajo> franjasDelDia = new ArrayList<>();
@@ -76,7 +75,7 @@ public class FranjaDeTrabajoServiceTest {
 
 
     @Test
-    public void testActualizarFranjaDeTrabajo() throws ChangeSetPersister.NotFoundException {
+    void testActualizarFranjaDeTrabajo() throws ChangeSetPersister.NotFoundException {
         Long id = 1L;
         FranjaDeTrabajo nuevaFranjaDeTrabajo = new FranjaDeTrabajo();
         FranjaDeTrabajo franjaExistente = new FranjaDeTrabajo();
@@ -85,7 +84,7 @@ public class FranjaDeTrabajoServiceTest {
         when(franjaDeTrabajoRepository.save(franjaExistente)).thenReturn(franjaExistente);
 
         FranjaDeTrabajo resultado = franjaDeTrabajoService.actualizarFranjaDeTrabajo(id, nuevaFranjaDeTrabajo);
-
+        assertNotNull(resultado);
     }
 
 }

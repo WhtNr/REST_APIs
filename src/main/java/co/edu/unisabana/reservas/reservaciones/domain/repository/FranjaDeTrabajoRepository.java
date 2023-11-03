@@ -15,7 +15,6 @@ public interface FranjaDeTrabajoRepository extends JpaRepository<FranjaDeTrabajo
     List<FranjaDeTrabajo> findByHoraInicioBefore(LocalTime hora);
 
 
-
     @Query("SELECT f FROM FranjaDeTrabajo f WHERE f.fechaLaborable = :fecha")
     List<FranjaDeTrabajo> findByFecha(@Param("fecha") LocalDate fecha);
 

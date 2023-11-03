@@ -1,4 +1,5 @@
 package co.edu.unisabana.reservas.reservaciones.controller;
+
 import co.edu.unisabana.reservas.reservaciones.ReservacionesApplication;
 import co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo;
@@ -18,13 +19,14 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
+
 import static org.mockito.Mockito.*;
 
 @SpringBootTest(classes = ReservacionesApplication.class)
 @Transactional
 @AutoConfigureMockMvc
 
-public class FranjaDeTrabajoControllerTest {
+class FranjaDeTrabajoControllerTest {
 
     @MockBean
     private FranjaDeTrabajoService franjaDeTrabajoService;
@@ -33,39 +35,28 @@ public class FranjaDeTrabajoControllerTest {
     private MockMvc mockMvc;
 
 
-        @Test
-    public void testCrearFranjaDeTrabajo() throws Exception {
+    @Test
+    void testCrearFranjaDeTrabajo() throws Exception {
 
         FranjaDeTrabajo franja = new FranjaDeTrabajo();
         when(franjaDeTrabajoService.crearFranjaDeTrabajo(argThat(franja::equals))).thenReturn(franja);
 
 
-        mockMvc.perform(MockMvcRequestBuilders
-                        .post("/api/franja-de-trabajo")
-                        .content(asJsonString(franja))
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .accept(MediaType.APPLICATION_JSON))
-                        .andExpect(MockMvcResultMatchers.status().isCreated());
+        mockMvc.perform(MockMvcRequestBuilders.post("/api/franja-de-trabajo").content(asJsonString(franja)).contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andExpect(MockMvcResultMatchers.status().isCreated());
 
 
         verify(franjaDeTrabajoService, times(1)).crearFranjaDeTrabajo(argThat(franja::equals));
     }
 
     @Test
-    public void testConsultarDisponibilidad() throws Exception {
+    void testConsultarDisponibilidad() throws Exception {
         LocalDate fecha = LocalDate.now();
         LocalTime horaDeseada = LocalTime.now();
         List<FranjaDeTrabajo> franjasDisponibles = new ArrayList<>();
         when(franjaDeTrabajoService.consultarDisponibilidad(fecha, horaDeseada)).thenReturn(franjasDisponibles);
 
 
-        mockMvc.perform(MockMvcRequestBuilders
-                        .get("/api/franja-de-trabajo/disponibilidad")
-                        .param("fecha", fecha.toString())
-                        .param("horaDeseada", horaDeseada.toString())
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .accept(MediaType.APPLICATION_JSON))
-                .andExpect(MockMvcResultMatchers.status().isOk());
+        mockMvc.perform(MockMvcRequestBuilders.get("/api/franja-de-trabajo/disponibilidad").param("fecha", fecha.toString()).param("horaDeseada", horaDeseada.toString()).contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andExpect(MockMvcResultMatchers.status().isOk());
 
 
         verify(franjaDeTrabajoService, times(1)).consultarDisponibilidad(fecha, horaDeseada);

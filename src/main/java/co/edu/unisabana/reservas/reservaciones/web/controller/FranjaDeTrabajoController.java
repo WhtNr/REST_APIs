@@ -29,16 +29,11 @@ public class FranjaDeTrabajoController {
     }
 
     @GetMapping("/disponibilidad")
-    public ResponseEntity<List<FranjaDeTrabajo>> consultarDisponibilidad(
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fecha,
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.TIME) LocalTime horaDeseada) {
+    public ResponseEntity<List<FranjaDeTrabajo>> consultarDisponibilidad(@RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fecha, @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.TIME) LocalTime horaDeseada) {
 
         try {
-            System.out.println("Solicitud de disponibilidad recibida para fecha: " + fecha + " y hora deseada: " + horaDeseada);
 
             List<FranjaDeTrabajo> franjasDisponibles = franjaDeTrabajoService.consultarDisponibilidad(fecha, horaDeseada);
-
-            System.out.println("Franjas disponibles encontradas: " + franjasDisponibles.size());
 
             return new ResponseEntity<>(franjasDisponibles, HttpStatus.OK);
         } catch (Exception e) {

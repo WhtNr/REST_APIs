@@ -60,13 +60,16 @@ tasks.jacocoTestReport {
 	dependsOn(tasks.test)
 	reports {
 		csv.required.set(true)
+		xml.required.set(true)
 	}
 }
 
 
 jacoco {
 	toolVersion = "0.8.8"
+
 }
+
 
 tasks.withType(JacocoReport) {
 	afterEvaluate {

@@ -21,7 +21,7 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-public class CitaServiceTest {
+class CitaServiceTest {
 
     @Mock
     private CitaRepository citaRepository;
@@ -39,7 +39,7 @@ public class CitaServiceTest {
 
 
     @Test
-    public void testVerificarDisponibilidad_Disponible() {
+    void testVerificarDisponibilidad_Disponible() {
         LocalDate fecha = LocalDate.now();
         LocalTime horaInicio = LocalTime.of(10, 0);
         LocalTime horaFin = LocalTime.of(11, 0);
@@ -59,7 +59,7 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void testVerificarDisponibilidad_NoDisponible() {
+    void testVerificarDisponibilidad_NoDisponible() {
         LocalDate fecha = LocalDate.now();
         LocalTime horaInicio = LocalTime.of(10, 0);
         LocalTime horaFin = LocalTime.of(11, 0);
@@ -82,7 +82,7 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void reprogramarCita_CitaExiste_DebeRetornarTrue() {
+    void reprogramarCita_CitaExiste_DebeRetornarTrue() {
         when(citaRepository.findById(anyLong())).thenReturn(Optional.of(new Cita()));
 
         boolean result = citaService.reprogramarCita(1L, new ReprogramacionCitaRequest());
@@ -91,14 +91,14 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void reprogramarCita_CitaNoExiste_DebeRetornarFalse() {
+    void reprogramarCita_CitaNoExiste_DebeRetornarFalse() {
         when(citaRepository.findById(anyLong())).thenReturn(Optional.empty());
         boolean result = citaService.reprogramarCita(1L, new ReprogramacionCitaRequest());
         assertFalse(result);
     }
 
     @Test
-    public void verificarDisponibilidad_FranjaDisponible_DebeRetornarTrue() {
+    void verificarDisponibilidad_FranjaDisponible_DebeRetornarTrue() {
 
         LocalDate fecha = LocalDate.of(2023, 9, 28);
         LocalTime horaInicio = LocalTime.of(9, 0);
@@ -114,8 +114,7 @@ public class CitaServiceTest {
         when(franjaDeTrabajoRepository.findByFecha(fecha)).thenReturn(franjasDelDia);
 
 
-        when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class)))
-                .thenReturn(new ArrayList<>());
+        when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class))).thenReturn(new ArrayList<>());
 
 
         boolean resultado = citaService.verificarDisponibilidad(fecha, horaInicio, horaFin);
@@ -125,7 +124,7 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void verificarDisponibilidad_FranjaNoDisponible_DebeRetornarFalse() {
+    void verificarDisponibilidad_FranjaNoDisponible_DebeRetornarFalse() {
 
         LocalDate fecha = LocalDate.of(2023, 9, 28);
         LocalTime horaInicio = LocalTime.of(9, 0);
@@ -142,8 +141,7 @@ public class CitaServiceTest {
 
 
         Cita citaExistente = new Cita();
-        when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class)))
-                .thenReturn(List.of(citaExistente));
+        when(citaRepository.findByFechaAndHoraInicioBetween(eq(fecha), any(LocalTime.class), any(LocalTime.class))).thenReturn(List.of(citaExistente));
 
 
         boolean resultado = citaService.verificarDisponibilidad(fecha, horaInicio, horaFin);
@@ -153,7 +151,7 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void programarCita_CitaNoProgramada_EstadoCambiadoYGuardado() {
+    void programarCita_CitaNoProgramada_EstadoCambiadoYGuardado() {
 
         Cita cita = new Cita();
         cita.setEstado(false);
@@ -172,7 +170,7 @@ public class CitaServiceTest {
     }
 
     @Test
-    public void programarCita_CitaYaProgramada_EstadoNoCambiadoYGuardado() {
+    void programarCita_CitaYaProgramada_EstadoNoCambiadoYGuardado() {
 
         Cita cita = new Cita();
         cita.setEstado(true);

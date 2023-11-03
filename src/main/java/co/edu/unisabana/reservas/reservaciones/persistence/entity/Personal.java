@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "personal")
 public class Personal {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_personal")

@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.reservaciones.web.controller.DTO;
+package co.edu.unisabana.reservas.reservaciones.web.controller.dto;
 
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.Personal;
 import lombok.Getter;

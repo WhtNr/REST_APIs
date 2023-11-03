@@ -52,8 +52,8 @@ public class CitaService {
 
         if (citaOptional.isPresent()) {
             Cita cita = citaOptional.get();
-           cita.setFecha(request.getNuevaFecha());
-           cita.setHoraInicio(request.getNuevaHoraInicio());
+            cita.setFecha(request.getNuevaFecha());
+            cita.setHoraInicio(request.getNuevaHoraInicio());
             cita.setHoraFin(request.getNuevaHoraFin());
             citaRepository.save(cita);
             return true;
@@ -61,7 +61,6 @@ public class CitaService {
             return false; // La cita no se encontró
         }
     }
-
 
 
 }

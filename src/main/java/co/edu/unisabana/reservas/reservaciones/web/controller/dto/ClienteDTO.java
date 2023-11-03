@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.reservaciones.web.controller.DTO;
+package co.edu.unisabana.reservas.reservaciones.web.controller.dto;
 
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.Cliente;
 import lombok.Getter;
@@ -21,7 +21,6 @@ public class ClienteDTO {
         this.celular = cliente.getCelular();
         this.correo = cliente.getCorreo();
     }
-
 
 
 }

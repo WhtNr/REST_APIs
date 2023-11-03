@@ -26,5 +26,4 @@ public class FranjaDeTrabajo {
     private LocalTime horaFin;
 
 
-
 }
