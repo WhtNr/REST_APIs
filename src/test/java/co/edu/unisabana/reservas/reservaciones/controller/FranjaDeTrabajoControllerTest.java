@@ -1,6 +1,7 @@
 package co.edu.unisabana.reservas.reservaciones.controller;
 
 import co.edu.unisabana.reservas.reservaciones.ReservacionesApplication;
+import co.edu.unisabana.reservas.reservaciones.TestSecurityConfig;
 import co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,6 +11,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
@@ -22,10 +24,11 @@ import java.util.List;
 
 import static org.mockito.Mockito.*;
 
-@SpringBootTest(classes = ReservacionesApplication.class)
 @Transactional
 @AutoConfigureMockMvc
 
+@SpringBootTest
+@ContextConfiguration(classes = TestSecurityConfig.class)
 class FranjaDeTrabajoControllerTest {
 
     @MockBean

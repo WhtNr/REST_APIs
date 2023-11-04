@@ -1,8 +1,9 @@
 package co.edu.unisabana.reservas.reservaciones.controller;
 
-import co.edu.unisabana.reservas.reservaciones.ReservacionesApplication;
+import co.edu.unisabana.reservas.reservaciones.TestSecurityConfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -13,9 +14,13 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 
-@SpringBootTest(classes = ReservacionesApplication.class)
+
+
 @AutoConfigureMockMvc
 @Transactional
+
+@SpringBootTest
+@ContextConfiguration(classes = TestSecurityConfig.class)
 class CitaControllerTest {
     @Autowired
     private MockMvc mockMvc;
