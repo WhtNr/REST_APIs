@@ -1,4 +1,4 @@
-package co.edu.unisabana.reservas.reservaciones;
+package co.edu.unisabana.reservas.reservaciones.config;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;

@@ -1,6 +1,6 @@
 package co.edu.unisabana.reservas.reservaciones.controller;
 
-import co.edu.unisabana.reservas.reservaciones.TestSecurityConfig;
+import co.edu.unisabana.reservas.reservaciones.config.TestSecurityConfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;

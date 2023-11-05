@@ -1,7 +1,6 @@
 package co.edu.unisabana.reservas.reservaciones.controller;
 
-import co.edu.unisabana.reservas.reservaciones.ReservacionesApplication;
-import co.edu.unisabana.reservas.reservaciones.TestSecurityConfig;
+import co.edu.unisabana.reservas.reservaciones.config.TestSecurityConfig;
 import co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo;
 import com.fasterxml.jackson.databind.ObjectMapper;
