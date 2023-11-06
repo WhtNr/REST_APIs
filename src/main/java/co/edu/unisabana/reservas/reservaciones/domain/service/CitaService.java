@@ -4,6 +4,7 @@ import co.edu.unisabana.reservas.reservaciones.persistence.entity.Cita;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo;
 import co.edu.unisabana.reservas.reservaciones.domain.repository.CitaRepository;
 import co.edu.unisabana.reservas.reservaciones.domain.repository.FranjaDeTrabajoRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -12,6 +13,8 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+@Slf4j
+
 public class CitaService {
 
     private final CitaRepository citaRepository;
@@ -41,7 +44,7 @@ public class CitaService {
 
 
     public void programarCita(Cita cita) {
-
+        log.warn("Nueva cita guardada el dia {} de {} a las {}", cita.getFecha(),cita.getHoraInicio(),cita.getHoraFin());
         cita.setEstado(true);
         citaRepository.save(cita);
 
@@ -56,9 +59,13 @@ public class CitaService {
             cita.setHoraInicio(request.getNuevaHoraInicio());
             cita.setHoraFin(request.getNuevaHoraFin());
             citaRepository.save(cita);
+            log.warn("la cita {} es reprogramada al dia {} a las {} ", idCita, cita.getFecha(), cita.getHoraFin());
             return true;
+
         } else {
+            log.warn("La cita {} no se encontro", idCita);
             return false; // La cita no se encontró
+
         }
     }
 

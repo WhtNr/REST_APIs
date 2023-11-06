@@ -42,7 +42,6 @@ dependencies {
 	testImplementation 'io.swagger.core.v3:swagger-jaxrs2:2.1.10'
 	testImplementation'io.swagger.core.v3:swagger-models:2.1.10'
 	testImplementation 'javax.ws.rs:javax.ws.rs-api:2.1'
-
 }
 
 

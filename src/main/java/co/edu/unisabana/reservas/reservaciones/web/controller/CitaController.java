@@ -5,6 +5,7 @@ import co.edu.unisabana.reservas.reservaciones.domain.repository.CitaRepository;
 import co.edu.unisabana.reservas.reservaciones.domain.service.CitaService;
 import co.edu.unisabana.reservas.reservaciones.domain.service.ReprogramacionCitaRequest;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,6 +15,7 @@ import java.time.LocalTime;
 import java.util.Optional;
 
 @RestController
+@Slf4j
 @RequestMapping("/api/citas")
 public class CitaController {
 
@@ -35,9 +37,10 @@ public class CitaController {
                 citaService.programarCita(cita);
                 return ResponseEntity.ok("Cita programada con éxito.");
             } catch (Exception e) {
-
+                log.error("Error al programar la cita {}", cita.getFecha());
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                         .body("Ocurrió un error al programar la cita.");
+
             }
         } else {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("La cita no está disponible.");
@@ -51,7 +54,9 @@ public class CitaController {
 
         if (citaOptional.isPresent()) {
             citaRepository.deleteById(idCita);
+            log.warn("Se elimina la cita {}",idCita);
             return ResponseEntity.ok("Cita eliminada con éxito.");
+
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No se encontró la cita con el ID proporcionado.");
         }
