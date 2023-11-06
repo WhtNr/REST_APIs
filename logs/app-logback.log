@@ -1,84 +1,16 @@
-2023-11-05 20:15:25,241 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24138 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 20:15:25,246 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 20:15:25,247 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 20:15:49,579 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 20:15:50,324 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 25.63 seconds (process running for 27.473)
-2023-11-05 21:25:56,775 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24416 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 21:25:56,777 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 21:25:56,778 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 21:26:20,455 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 21:26:21,092 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 24.818 seconds (process running for 26.465)
-2023-11-05 21:27:13,156 INFO [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: revisan franja de trabajo 2023-09-30 
-2023-11-05 21:29:07,286 WARN [http-nio-8080-exec-9] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardarda 2023-09-30
-2023-11-05 21:30:14,052 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 11 no se encontro
-2023-11-05 21:31:57,466 WARN [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita
-2023-11-05 21:49:16,506 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24540 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 21:49:16,508 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 21:49:16,509 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 21:49:43,079 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 21:49:44,520 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 28.87 seconds (process running for 31.536)
-2023-11-05 21:52:23,229 WARN [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo@be7ca09e
-2023-11-05 21:54:17,661 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24612 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 21:54:17,713 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 21:54:17,714 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 21:54:43,202 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 21:54:44,037 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 26.947 seconds (process running for 29.096)
-2023-11-05 21:54:53,024 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia 2023-11-02 de 10:00 hasta las 11:00
-2023-11-05 21:56:30,145 WARN [http-nio-8080-exec-4] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Error al eliminar la cita 25
-2023-11-05 21:57:30,634 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24641 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 21:57:30,638 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 21:57:30,641 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 21:57:39,383 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24651 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 21:57:39,385 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 21:57:39,386 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 21:57:59,054 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 21:57:59,725 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 20.796 seconds (process running for 22.035)
-2023-11-05 21:59:11,236 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 24
-2023-11-05 22:02:48,413 WARN [http-nio-8080-exec-7] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada 0
-2023-11-05 22:06:10,979 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24729 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:06:10,981 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:06:10,982 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:06:33,943 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:06:34,871 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 24.342 seconds (process running for 26.401)
-2023-11-05 22:07:40,385 WARN [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-09-28 de 13:00 a las 14:00
-2023-11-05 22:08:49,227 WARN [http-nio-8080-exec-6] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 26 es reprogramada al dia 2023-10-15 a las 15:30 
-2023-11-05 22:09:43,416 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 24753 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:09:43,420 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:09:43,422 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:10:06,136 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:10:07,120 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 24.261 seconds (process running for 29.135)
-2023-11-05 22:10:08,030 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24753 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:10:08,031 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:10:08,031 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:10:23,828 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:10:24,081 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 16.079 seconds (process running for 46.096)
-2023-11-05 22:10:24,179 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 24753 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:10:24,180 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:10:24,181 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:10:41,319 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:10:41,367 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2023-11-05 22:10:41,600 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 17.446 seconds (process running for 63.614)
-2023-11-05 22:10:43,648 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 8 es reprogramada al dia 2023-10-02 a las 16:00 
-2023-11-05 22:10:44,487 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 7
-2023-11-05 22:10:44,817 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 24753 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:10:44,818 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:10:44,819 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:11:01,395 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:11:01,472 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
-2023-11-05 22:11:01,789 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 17.002 seconds (process running for 83.803)
-2023-11-05 22:11:02,927 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
-2023-11-05 22:11:02,959 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
-2023-11-05 22:11:02,967 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
-2023-11-05 22:11:02,972 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
-2023-11-05 22:11:02,987 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
-2023-11-05 22:11:02,998 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
-2023-11-05 22:14:01,596 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24851 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:14:01,599 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:14:01,600 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:14:24,255 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:14:24,852 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 23.763 seconds (process running for 26.01)
-2023-11-05 22:26:32,866 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 24927 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
-2023-11-05 22:26:32,869 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-11-05 22:26:32,870 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
-2023-11-05 22:26:54,101 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-05 22:26:54,695 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 22.501 seconds (process running for 23.591)
+2023-11-06 01:56:30,265 WARN [http-nio-8080-exec-10] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 3 es reprogramada al dia 2023-10-15 a las 15:30 
+2023-11-06 01:57:02,997 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 3
+2023-11-06 01:57:32,241 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 26702 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 01:57:32,246 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 01:57:32,247 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 01:57:37,630 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 01:57:38,259 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 6.511 seconds (process running for 8.062)
+2023-11-06 01:58:02,273 WARN [http-nio-8080-exec-2] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia 2023-12-03 de 10:00 hasta las 15:00
+2023-11-06 01:58:21,915 WARN [http-nio-8080-exec-5] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 01:58:25,332 WARN [http-nio-8080-exec-6] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 4
+2023-11-06 01:58:31,602 WARN [http-nio-8080-exec-7] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 5 no se encontro
+2023-11-06 01:58:50,455 WARN [http-nio-8080-exec-8] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 3 no se encontro
+2023-11-06 01:58:53,604 WARN [http-nio-8080-exec-9] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 4 no se encontro
+2023-11-06 01:58:56,580 WARN [http-nio-8080-exec-10] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 6 no se encontro
+2023-11-06 01:59:02,175 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 01:59:23,548 WARN [http-nio-8080-exec-2] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 5 es reprogramada al dia 2023-10-15 a las 15:30 
