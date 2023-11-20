@@ -18,3 +18,5 @@ docker run -d -p 8090:3306 -e MYSQL_ROOT_PASSWORD=clave mysql --name database -e
 
 docker-compose up --build
 docker build -t app .         
+
+primero debes abrir docker.
