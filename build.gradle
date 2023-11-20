@@ -75,7 +75,7 @@ tasks.withType(JacocoReport) {
 		classDirectories.setFrom(files(classDirectories.files.collect {
 			fileTree(it) {
 				exclude("**/entity**")
-				exclude("**/DTO**")
+				exclude("**/dto**")
 			}
 		}))
 	}

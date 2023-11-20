@@ -38,7 +38,7 @@ class CitaControllerTest {
     @Test
     void givenExistingCitaId_whenCancelarCita_thenSuccess() throws Exception {
 
-        Long idCita = 6L;
+        Long idCita = 9L;
 
 
         mockMvc.perform(MockMvcRequestBuilders.delete("/api/citas/cancelar/" + idCita)).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("Cita eliminada con éxito."));
@@ -60,7 +60,7 @@ class CitaControllerTest {
     @Test
     void givenExistingCitaIdAndReprogramacionRequest_whenReprogramarCita_thenSuccess() throws Exception {
 
-        Long citaId = 6L;
+        Long citaId = 9L;
 
 
         String reprogramacionJson = "{\"nuevaFecha\":\"2023-12-03\",\"nuevaHoraInicio\":\"11:00:00\",\"nuevaHoraFin\":\"12:00:00\"}";

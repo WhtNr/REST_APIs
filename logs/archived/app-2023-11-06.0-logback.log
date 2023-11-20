@@ -1,0 +1,714 @@
+2023-11-06 01:56:30,265 WARN [http-nio-8080-exec-10] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 3 es reprogramada al dia 2023-10-15 a las 15:30 
+2023-11-06 01:57:02,997 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 3
+2023-11-06 01:57:32,241 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 26702 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 01:57:32,246 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 01:57:32,247 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 01:57:37,630 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 01:57:38,259 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 6.511 seconds (process running for 8.062)
+2023-11-06 01:58:02,273 WARN [http-nio-8080-exec-2] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia 2023-12-03 de 10:00 hasta las 15:00
+2023-11-06 01:58:21,915 WARN [http-nio-8080-exec-5] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 01:58:25,332 WARN [http-nio-8080-exec-6] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 4
+2023-11-06 01:58:31,602 WARN [http-nio-8080-exec-7] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 5 no se encontro
+2023-11-06 01:58:50,455 WARN [http-nio-8080-exec-8] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 3 no se encontro
+2023-11-06 01:58:53,604 WARN [http-nio-8080-exec-9] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 4 no se encontro
+2023-11-06 01:58:56,580 WARN [http-nio-8080-exec-10] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 6 no se encontro
+2023-11-06 01:59:02,175 WARN [http-nio-8080-exec-1] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 01:59:23,548 WARN [http-nio-8080-exec-2] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 5 es reprogramada al dia 2023-10-15 a las 15:30 
+2023-11-06 02:10:33,935 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 27081 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:10:33,955 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:10:33,956 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:10:39,516 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:10:40,088 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 6.986 seconds (process running for 9.188)
+2023-11-06 02:10:55,007 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 27092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:10:55,009 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:10:55,011 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:11:03,227 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:11:04,346 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 9.858 seconds (process running for 13.579)
+2023-11-06 02:11:05,336 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 27092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:11:05,336 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:11:05,337 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:11:06,533 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:11:06,761 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 1.449 seconds (process running for 15.995)
+2023-11-06 02:11:06,856 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:11:06,858 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:11:06,858 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:11:07,821 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:11:07,844 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:11:08,007 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 1.188 seconds (process running for 17.24)
+2023-11-06 02:11:08,539 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 8 no se encontro
+2023-11-06 02:11:08,658 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 27092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:11:08,661 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:11:08,661 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:11:11,065 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:11:11,168 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:11:11,608 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 2.988 seconds (process running for 20.841)
+2023-11-06 02:11:12,503 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:11:12,536 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 02:11:12,546 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:11:12,552 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 02:11:12,569 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 02:11:12,578 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 02:12:42,624 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 27139 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:12:42,626 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:12:42,872 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:12:46,857 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:12:47,310 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 5.304 seconds (process running for 6.403)
+2023-11-06 02:13:15,476 WARN [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 5
+2023-11-06 02:13:32,145 WARN [http-nio-8080-exec-4] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 02:13:36,697 WARN [http-nio-8080-exec-5] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-10-15 a las 15:30 
+2023-11-06 02:14:47,375 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27192 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:14:47,387 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:14:47,389 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:14:57,468 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:14:57,788 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:14:58,751 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 12.646 seconds (process running for 18.126)
+2023-11-06 02:15:00,875 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 8 no se encontro
+2023-11-06 02:15:42,059 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27233 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:15:42,064 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:15:42,066 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:15:51,277 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:15:51,555 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:15:52,508 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 11.051 seconds (process running for 14.72)
+2023-11-06 02:15:53,516 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 8 no se encontro
+2023-11-06 02:17:00,092 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27304 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:17:00,098 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:17:00,100 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:17:13,836 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:17:14,215 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:17:15,382 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 15.775 seconds (process running for 18.993)
+2023-11-06 02:17:17,121 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 02:17:53,929 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27350 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:17:53,937 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:17:53,939 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:18:06,854 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:18:07,286 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:18:08,690 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 15.729 seconds (process running for 21.318)
+2023-11-06 02:18:38,871 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 27393 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:18:38,876 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:18:38,877 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:18:52,616 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:18:53,998 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 15.887 seconds (process running for 22.509)
+2023-11-06 02:18:55,424 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 27393 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:18:55,425 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:18:55,425 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:18:57,106 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:18:57,364 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 1.974 seconds (process running for 25.875)
+2023-11-06 02:18:57,501 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27393 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:18:57,502 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:18:57,502 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:18:58,882 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:18:58,918 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:18:59,323 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 1.856 seconds (process running for 27.835)
+2023-11-06 02:19:00,208 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 02:19:00,350 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 27393 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:19:00,351 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:19:00,352 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:19:03,480 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:19:03,589 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:19:04,239 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 3.929 seconds (process running for 32.751)
+2023-11-06 02:19:05,608 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:19:05,713 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 02:19:05,739 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:19:05,755 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 02:19:05,791 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 02:19:05,810 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 02:19:38,502 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27431 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:19:38,514 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:19:38,517 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:19:55,843 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:19:58,156 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:20:12,568 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27452 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:20:12,574 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:20:12,579 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:20:25,239 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:20:25,622 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:20:26,981 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 15.706 seconds (process running for 24.883)
+2023-11-06 02:20:28,903 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 02:20:28,950 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 02:20:43,408 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 27480 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:20:43,413 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:20:43,416 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:21:03,662 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:21:05,391 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 22.75 seconds (process running for 29.036)
+2023-11-06 02:21:07,255 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 27480 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:21:07,258 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:21:07,260 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:21:08,770 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:21:09,195 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 2.004 seconds (process running for 32.84)
+2023-11-06 02:21:09,455 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 27480 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:21:09,460 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:21:09,461 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:21:12,543 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:21:12,704 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:21:13,192 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 3.804 seconds (process running for 36.837)
+2023-11-06 02:21:14,980 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 02:21:15,034 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 02:21:15,096 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 27480 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 02:21:15,097 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 02:21:15,098 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 02:21:19,535 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 02:21:19,959 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 02:21:20,824 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 5.758 seconds (process running for 44.469)
+2023-11-06 02:21:22,123 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:21:22,163 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 02:21:22,174 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 02:21:22,181 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 02:21:22,195 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 02:21:22,213 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:02:21,469 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 28823 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:02:21,476 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:02:21,478 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:02:34,909 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:02:35,299 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:02:36,440 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 16.111 seconds (process running for 22.933)
+2023-11-06 03:02:38,352 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:02:38,396 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:02:39,499 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:02:39,643 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:02:39,665 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:02:39,675 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:02:39,979 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 28823 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:02:39,981 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:02:39,982 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:02:43,787 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:02:44,284 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 4.421 seconds (process running for 30.777)
+2023-11-06 03:02:44,382 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 28823 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:02:44,382 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:02:44,384 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:02:46,159 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:02:46,504 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 2.201 seconds (process running for 32.997)
+2023-11-06 03:02:46,583 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 28823 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:02:46,584 DEBUG [Test worker] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:02:46,584 INFO [Test worker] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:02:49,111 WARN [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:02:49,204 WARN [Test worker] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:02:49,730 INFO [Test worker] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 3.19 seconds (process running for 36.223)
+2023-11-06 03:02:49,944 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:02:49,958 WARN [Test worker] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:05:03,589 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 28921 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:05:03,599 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:05:03,601 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:05:35,900 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:05:38,669 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 36.309 seconds (process running for 42.41)
+2023-11-06 03:05:40,823 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 28921 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:05:40,834 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:05:40,837 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:05:45,609 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:05:46,197 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 5.523 seconds (process running for 49.938)
+2023-11-06 03:05:46,469 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 28921 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:05:46,470 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:05:46,471 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:05:50,369 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:05:50,636 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:05:52,324 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 5.894 seconds (process running for 56.065)
+2023-11-06 03:05:55,191 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:05:55,249 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:05:55,341 INFO [main] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 28921 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:05:55,342 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:05:55,343 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:05:58,876 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:05:59,000 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:05:59,471 INFO [main] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 4.181 seconds (process running for 63.212)
+2023-11-06 03:06:00,617 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:06:00,723 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:06:00,770 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:06:00,811 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:06:00,869 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:06:00,898 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:05,193 INFO [main] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 28977 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:06:05,196 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:06:05,198 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:06:15,916 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:06:16,207 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:06:17,243 INFO [main] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 12.489 seconds (process running for 15.299)
+2023-11-06 03:06:18,618 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:06:18,649 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:18,888 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:06:18,917 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:06:18,931 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:06:18,946 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:06:19,115 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 28977 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:06:19,115 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:06:19,116 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:06:21,561 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:06:21,599 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:06:21,855 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 2.834 seconds (process running for 19.911)
+2023-11-06 03:06:22,172 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:06:22,200 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:06:24,995 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:26,675 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:28,309 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:28,334 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:06:32,251 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:32,785 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:06:34,902 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29003 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:06:34,905 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:06:34,908 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:06:38,134 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 29006 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:06:38,137 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:06:38,139 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:06:47,464 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:06:49,523 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 16.18 seconds (process running for 21.291)
+2023-11-06 03:06:50,737 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:06:51,615 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:06:54,682 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 17.18 seconds (process running for 21.804)
+2023-11-06 03:06:56,830 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:06:56,881 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:06:57,047 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:06:57,171 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:06:57,284 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 10:00 a las 11:00
+2023-11-06 03:06:57,353 WARN [mutationTestThread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: SQL Error: 1452, SQLState: 23000
+2023-11-06 03:06:57,354 ERROR [mutationTestThread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: Cannot add or update a child row: a foreign key constraint fails (`yms`.`cita`, CONSTRAINT `FK41cyvo7m6oexi1p7r6oxhd37e` FOREIGN KEY (`id_personal`) REFERENCES `personal` (`id_personal`))
+2023-11-06 03:06:57,369 ERROR [mutationTestThread] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Error al programar la cita 2023-12-03
+2023-11-06 03:06:57,844 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:06:58,208 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:07:03,427 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:03,694 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:03,738 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:03,749 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:07:05,354 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 29032 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:07:05,356 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:07:05,358 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:07:15,716 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:07:16,154 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:07:17,215 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 12.51 seconds (process running for 18.937)
+2023-11-06 03:07:17,721 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:07:17,773 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:07:18,340 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:18,382 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 15:30 
+2023-11-06 03:07:18,790 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:18,802 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:19,042 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:19,074 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-10-15 a las 12:00 
+2023-11-06 03:07:19,262 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 10:00 a las 11:00
+2023-11-06 03:07:19,342 WARN [mutationTestThread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: SQL Error: 1452, SQLState: 23000
+2023-11-06 03:07:19,343 ERROR [mutationTestThread] org.hibernate.engine.jdbc.spi.SqlExceptionHelper: Cannot add or update a child row: a foreign key constraint fails (`yms`.`cita`, CONSTRAINT `FK41cyvo7m6oexi1p7r6oxhd37e` FOREIGN KEY (`id_personal`) REFERENCES `personal` (`id_personal`))
+2023-11-06 03:07:19,354 ERROR [mutationTestThread] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Error al programar la cita 2023-12-03
+2023-11-06 03:07:19,798 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:07:20,297 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:20,362 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:07:20,502 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:20,650 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:07:26,059 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:26,350 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:26,382 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:26,400 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:07:27,899 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 29048 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:07:27,901 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:07:27,902 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:07:46,616 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:07:47,099 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:07:48,175 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 20.926 seconds (process running for 27.414)
+2023-11-06 03:07:48,734 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:07:48,778 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:07:48,955 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:48,968 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,125 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:49,135 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,180 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia null a las 12:00 
+2023-11-06 03:07:49,202 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,336 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,347 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,438 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,612 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:07:49,623 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:49,659 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las null 
+2023-11-06 03:07:49,680 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:07:58,468 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:07:58,647 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:07:58,997 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:07:59,102 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:07:59,190 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:07:59,507 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se actualizo la franja de trabajo 1
+2023-11-06 03:07:59,558 WARN [http-nio-8080-exec-3] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia 2023-12-03 de 10:00 hasta las 15:00
+2023-11-06 03:07:59,649 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.FranjaDeTrabajoService: Se creo la franja de trabajo el dia null de null hasta las null
+2023-11-06 03:08:06,747 INFO [main] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:06,752 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:06,757 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:19,392 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:19,711 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:08:21,505 INFO [main] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 15.287 seconds (process running for 21.741)
+2023-11-06 03:08:22,153 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplicationTest using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:22,154 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:22,158 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:25,065 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:25,396 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplicationTest in 3.341 seconds (process running for 25.632)
+2023-11-06 03:08:25,431 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:25,431 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:25,432 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:27,860 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:28,318 WARN [main] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-06 03:08:28,388 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-06 03:08:28,493 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:28,495 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:28,495 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:30,550 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:30,625 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:08:31,386 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 2.956 seconds (process running for 31.622)
+2023-11-06 03:08:32,292 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:08:32,368 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:08:32,693 INFO [mutationTestThread] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:32,694 DEBUG [mutationTestThread] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:32,694 INFO [mutationTestThread] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:34,790 WARN [mutationTestThread] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:35,452 WARN [mutationTestThread] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-06 03:08:35,483 ERROR [mutationTestThread] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-06 03:08:36,060 INFO [mutationTestThread] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:36,094 DEBUG [mutationTestThread] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:36,095 INFO [mutationTestThread] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:39,897 WARN [mutationTestThread] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:40,198 WARN [mutationTestThread] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-06 03:08:40,220 ERROR [mutationTestThread] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-06 03:08:40,517 INFO [mutationTestThread] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:40,517 DEBUG [mutationTestThread] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:40,518 INFO [mutationTestThread] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:41,906 WARN [mutationTestThread] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:42,102 WARN [mutationTestThread] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-06 03:08:42,145 ERROR [mutationTestThread] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-06 03:08:42,426 INFO [mutationTestThread] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:42,427 DEBUG [mutationTestThread] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:42,427 INFO [mutationTestThread] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:43,912 WARN [mutationTestThread] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:44,005 WARN [mutationTestThread] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [co/edu/unisabana/reservas/reservaciones/config/WebSecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'passwordEncoder' is expected to be of type 'org.springframework.security.crypto.password.PasswordEncoder' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+2023-11-06 03:08:44,042 ERROR [mutationTestThread] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [co/edu/unisabana/reservas/reservaciones/config/WebSecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'passwordEncoder' is expected to be of type 'org.springframework.security.crypto.password.PasswordEncoder' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:550)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at co.edu.unisabana.reservas.reservaciones.ReservacionesApplication.main(ReservacionesApplication.java:10)
+	at co.edu.unisabana.reservas.reservaciones.ReservacionesApplicationTest.contextLoads(ReservacionesApplicationTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.pitest.junit5.JUnit5TestUnit.execute(JUnit5TestUnit.java:93)
+	at org.pitest.mutationtest.execute.MutationTimeoutDecorator.lambda$createRunnable$0(MutationTimeoutDecorator.java:81)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'passwordEncoder' is expected to be of type 'org.springframework.security.crypto.password.PasswordEncoder' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 86 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'passwordEncoder' is expected to be of type 'org.springframework.security.crypto.password.PasswordEncoder' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 98 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'passwordEncoder' is expected to be of type 'org.springframework.security.crypto.password.PasswordEncoder' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:389)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.getBeanOrNull(InitializeUserDetailsBeanManagerConfigurer.java:89)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:66)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:55)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:355)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:309)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 99 common frames omitted
+2023-11-06 03:08:44,543 INFO [mutationTestThread] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 29092 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:44,544 DEBUG [mutationTestThread] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:44,544 INFO [mutationTestThread] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:08:46,234 WARN [mutationTestThread] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:08:46,245 WARN [mutationTestThread] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [co/edu/unisabana/reservas/reservaciones/config/WebSecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'userDetailsService' is expected to be of type 'org.springframework.security.core.userdetails.UserDetailsService' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+2023-11-06 03:08:46,263 ERROR [mutationTestThread] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [co/edu/unisabana/reservas/reservaciones/config/WebSecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'userDetailsService' is expected to be of type 'org.springframework.security.core.userdetails.UserDetailsService' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:550)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at co.edu.unisabana.reservas.reservaciones.ReservacionesApplication.main(ReservacionesApplication.java:10)
+	at co.edu.unisabana.reservas.reservaciones.ReservacionesApplicationTest.contextLoads(ReservacionesApplicationTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at org.pitest.junit5.JUnit5TestUnit.execute(JUnit5TestUnit.java:93)
+	at org.pitest.mutationtest.execute.MutationTimeoutDecorator.lambda$createRunnable$0(MutationTimeoutDecorator.java:81)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'userDetailsService' is expected to be of type 'org.springframework.security.core.userdetails.UserDetailsService' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 86 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Bean named 'userDetailsService' is expected to be of type 'org.springframework.security.core.userdetails.UserDetailsService' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 98 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'userDetailsService' is expected to be of type 'org.springframework.security.core.userdetails.UserDetailsService' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:389)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.getBeanOrNull(InitializeUserDetailsBeanManagerConfigurer.java:89)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:62)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure(InitializeUserDetailsBeanManagerConfigurer.java:55)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:355)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:309)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:132)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:108)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 99 common frames omitted
+2023-11-06 03:08:51,523 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:08:51,589 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:08:51,602 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia null de null a las null
+2023-11-06 03:08:51,608 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 1 no se encontro
+2023-11-06 03:08:54,241 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CitaControllerTest using Java 19.0.2 with PID 29129 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:08:54,242 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:08:54,244 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:09:02,470 WARN [http-nio-8080-exec-5] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: Nueva cita guardada el dia 2023-12-03 de 13:00 a las 14:00
+2023-11-06 03:09:03,098 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:09:03,389 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:09:05,140 INFO [main] org.springframework.boot.StartupInfoLogger: Started CitaControllerTest in 12.304 seconds (process running for 18.824)
+2023-11-06 03:09:05,838 WARN [main] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:09:05,870 WARN [main] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:09:06,000 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:09:06,043 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia null a las 12:00 
+2023-11-06 03:09:06,206 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:09:06,245 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las 12:00 
+2023-11-06 03:09:06,376 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 1 es reprogramada al dia null a las null 
+2023-11-06 03:09:06,418 WARN [mutationTestThread] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-12-03 a las null 
+2023-11-06 03:09:09,315 WARN [http-nio-8080-exec-6] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: La cita 7 no se encontro
+2023-11-06 03:09:11,174 INFO [main] org.springframework.boot.StartupInfoLogger: Starting FranjaDeTrabajoControllerTest using Java 19.0.2 with PID 29148 (started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 03:09:11,186 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 03:09:11,192 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 03:09:14,245 WARN [http-nio-8080-exec-7] co.edu.unisabana.reservas.reservaciones.domain.service.CitaService: la cita 6 es reprogramada al dia 2023-10-15 a las 15:30 
+2023-11-06 03:09:21,850 WARN [http-nio-8080-exec-8] co.edu.unisabana.reservas.reservaciones.web.controller.CitaController: Se elimina la cita 6
+2023-11-06 03:09:26,090 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 03:09:26,471 WARN [main] org.springframework.security.config.annotation.web.builders.WebSecurity: You are asking Spring Security to ignore Ant [pattern='/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-11-06 03:09:27,419 INFO [main] org.springframework.boot.StartupInfoLogger: Started FranjaDeTrabajoControllerTest in 17.056 seconds (process running for 20.925)
+2023-11-06 11:48:14,126 INFO [main] org.springframework.boot.StartupInfoLogger: Starting ReservacionesApplication using Java 19.0.2 with PID 30933 (/Users/brayanbaez/Documents/ProyectosUni/REST_APIs/build/classes/java/main started by brayanbaez in /Users/brayanbaez/Documents/ProyectosUni/REST_APIs)
+2023-11-06 11:48:14,129 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-11-06 11:48:14,131 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-11-06 11:48:23,535 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-06 11:48:27,905 INFO [main] org.springframework.boot.StartupInfoLogger: Started ReservacionesApplication in 14.775 seconds (process running for 17.173)
