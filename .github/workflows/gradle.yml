@@ -1,4 +1,4 @@
-name: Project REST_APIs CI Flow
+name: CI
 
 on:
   pull_request:
