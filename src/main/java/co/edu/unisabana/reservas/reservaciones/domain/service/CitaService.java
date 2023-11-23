@@ -44,8 +44,8 @@ public class CitaService {
 
 
     public void programarCita(Cita cita) {
-        log.warn("Nueva cita guardada el dia {} de {} a las {}", cita.getFecha(),cita.getHoraInicio(),cita.getHoraFin());
-        cita.setEstado(true);
+        cita.setEstado(cita.getEstado());
+        log.warn("Nueva cita guardada el dia {} de {} a las {}, estado {}", cita.getFecha(),cita.getHoraInicio(),cita.getHoraFin(),cita.getObtenerEstadoActualComoCadena());
         citaRepository.save(cita);
 
     }
@@ -58,8 +58,9 @@ public class CitaService {
             cita.setFecha(request.getNuevaFecha());
             cita.setHoraInicio(request.getNuevaHoraInicio());
             cita.setHoraFin(request.getNuevaHoraFin());
+            cita.setEstado(cita.getEstado());
             citaRepository.save(cita);
-            log.warn("la cita {} es reprogramada al dia {} a las {} ", idCita, cita.getFecha(), cita.getHoraFin());
+            log.warn("la cita {} es reprogramada al dia {} a las {} estado {} ", idCita, cita.getFecha(), cita.getHoraFin(),cita.getObtenerEstadoActualComoCadena());
             return true;
 
         } else {

@@ -5,6 +5,9 @@ import co.edu.unisabana.reservas.reservaciones.domain.repository.CitaRepository;
 import co.edu.unisabana.reservas.reservaciones.domain.service.CitaService;
 import co.edu.unisabana.reservas.reservaciones.domain.service.ReprogramacionCitaRequest;
 
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoCancelada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoReprogramada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoProgramada;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,6 +37,8 @@ public class CitaController {
 
         if (citaService.verificarDisponibilidad(fecha, horaInicio, horaFin)) {
             try {
+                cita.setEstado(new EstadoReprogramada());
+                cita.programarCita();
                 citaService.programarCita(cita);
                 return ResponseEntity.ok("Cita programada con éxito.");
             } catch (Exception e) {
@@ -53,8 +58,11 @@ public class CitaController {
         Optional<Cita> citaOptional = citaRepository.findById(idCita);
 
         if (citaOptional.isPresent()) {
+            Cita cita = citaOptional.get();
+            cita.setEstado(new EstadoCancelada());
+            cita.cancelarCita();
             citaRepository.deleteById(idCita);
-            log.warn("Se elimina la cita {}",idCita);
+            log.warn("Se elimina la cita {} ",idCita);
             return ResponseEntity.ok("Cita eliminada con éxito.");
 
         } else {
@@ -64,7 +72,14 @@ public class CitaController {
 
     @PutMapping("/reprogramar/{idCita}")
     public ResponseEntity<String> reprogramarCita(@PathVariable Long idCita, @RequestBody ReprogramacionCitaRequest request) {
-        if (citaService.reprogramarCita(idCita, request)) {
+        Optional<Cita> citaOptional = citaRepository.findById(idCita);
+
+        if (citaOptional.isPresent()) {
+            Cita cita = citaOptional.get();
+            // Cambia el estado antes de reprogramar la cita
+            cita.setEstado(new EstadoProgramada());
+            cita.reprogramarCita(); // Esto llama al método retrogradarCita en el estado actual
+            citaService.reprogramarCita(idCita, request);
             return ResponseEntity.ok("Cita reprogramada con éxito.");
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("La cita no se encontró.");
