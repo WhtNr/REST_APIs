@@ -5,9 +5,9 @@ import co.edu.unisabana.reservas.reservaciones.domain.repository.CitaRepository;
 import co.edu.unisabana.reservas.reservaciones.domain.service.CitaService;
 import co.edu.unisabana.reservas.reservaciones.domain.service.ReprogramacionCitaRequest;
 
-import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoCancelada;
-import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoReprogramada;
-import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoProgramada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoCancelada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoReprogramada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoProgramada;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

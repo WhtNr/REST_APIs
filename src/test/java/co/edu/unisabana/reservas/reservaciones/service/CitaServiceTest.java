@@ -5,8 +5,8 @@ import co.edu.unisabana.reservas.reservaciones.domain.repository.FranjaDeTrabajo
 import co.edu.unisabana.reservas.reservaciones.domain.service.CitaService;
 import co.edu.unisabana.reservas.reservaciones.domain.service.ReprogramacionCitaRequest;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.Cita;
-import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoCita;
-import co.edu.unisabana.reservas.reservaciones.persistence.entity.EstadoProgramada;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoCita;
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoProgramada;
 import co.edu.unisabana.reservas.reservaciones.persistence.entity.FranjaDeTrabajo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

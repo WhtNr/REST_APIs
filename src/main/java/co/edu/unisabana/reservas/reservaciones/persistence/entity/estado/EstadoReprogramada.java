@@ -1,4 +1,6 @@
-package co.edu.unisabana.reservas.reservaciones.persistence.entity;
+package co.edu.unisabana.reservas.reservaciones.persistence.entity.estado;
+
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.Cita;
 
 public class EstadoReprogramada implements EstadoCita {
     @Override

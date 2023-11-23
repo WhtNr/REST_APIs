@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
+import co.edu.unisabana.reservas.reservaciones.persistence.entity.estado.EstadoCita;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
