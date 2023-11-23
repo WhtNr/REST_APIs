@@ -21,3 +21,24 @@ docker-compose up --build
 docker build -t app .         
 
 primero debes abrir docker.
+
+
+#Documentación
+
+##Responsabilidad ética
+###Contextos Globales y Sociales:
+Privacidad de los datos: Garantizar la protección de la información personal de los clientes, teniendo en cuenta cada uno de las legislaciones del país. El sistema debe cumplir con las regulaciones de privacidad de datos para evitar el uso indebido de la información.
+
+Transparencia y honestidad: Proporcionar información clara y precisa sobre los servicios, precios, disponibilidad y políticas de cancelación para mantener la confianza de los clientes.
+
+Seguridad de la información: Implementar medidas de seguridad necesarias para prevenir posibles vulnerabilidades y ataques cibernéticos que puedan comprometer la información confidencial de los clientes.
+
+###Contextos Económicos
+Competencia justa: Asegurar que el sistema no favorezca injustamente a ciertos proveedores de servicios sobre otros y promueva una competencia leal entre las empresas.
+
+Transacciones financieras seguras: Garantizar la seguridad en los procesos de pago y transacciones financieras para proteger tanto a los clientes como a las empresas.
+
+###Responsabilidades Profesionales
+Calidad del servicio: Asegurar que el sistema proporcione una experiencia de usuario óptima y una funcionalidad confiable para cumplir con las expectativas de los clientes y proveedores de servicios.
+
+Cumplimiento normativo: Respetar las regulaciones locales, nacionales e internacionales relacionadas con el comercio electrónico, la protección de datos, entre otras.
